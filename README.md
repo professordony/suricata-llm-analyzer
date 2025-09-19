@@ -1,7 +1,7 @@
 
-🛡️ Suricata LLM Analyzer
+🛡️ Suricata LLM Analyzer 
 
-Sistema profissional de análise de logs IDS/IPS com IA local para detecção e análise de ameaças cibernéticas.
+Sistema  de análise de logs IDS/IPS com IA local para detecção e análise de ameaças cibernéticas.
 
 🎯 Características
 
@@ -24,7 +24,8 @@ Suricata IDS/IPS → EVE JSON → Monitor Python → FastAPI → LLM (Ollama) �
 
 🚀 Instalação Rápida (Ubuntu)
 # 1. Baixar e executar script de instalação
-curl -fsSL https://raw.githubusercontent.com/seu-repo/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/suricata-llm-analyzer
+/install.sh | bash
 
 # 2. Entrar no diretório
 cd ~/suricata-llm-analyzer
@@ -39,21 +40,25 @@ Ubuntu 20.04+ (ou Debian 11+)
 
 Python 3.8+
 
-4GB RAM mínimo (8GB recomendado)
+4GB RAM mínimo (16GB recomendado)
 
-10GB espaço livre
+50GB espaço livre
 
 Passo a Passo
+
 Instalar Suricata
+
 sudo add-apt-repository ppa:oisf/suricata-stable
 sudo apt update && sudo apt install suricata
 
 Instalar Ollama
+
 curl -fsSL https://ollama.ai/install.sh | sh
+
 ollama pull gemma2:2b
 
 Configurar Projeto
-git clone <seu-repo>
+git clone https://github.com/professordony/suricata-llm-analyze
 cd suricata-llm-analyzer
 python3 -m venv venv
 source venv/bin/activate
