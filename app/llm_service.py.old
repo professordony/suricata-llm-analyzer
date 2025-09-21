@@ -1,0 +1,64 @@
+import httpx
+import json
+import logging
+
+logger = logging.getLogger(__name__)
+
+PROMPT_TEMPLATE = """
+Você é um SOC Analyst (Blue Team). Sua função é interpretar eventos do Suricata IDS.
+
+Alerta recebido:
+{log}
+
+Sua resposta **deve ser apenas JSON válido** com os seguintes campos:
+{{
+  "tipo_ataque": "extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force)",
+  "resumo": "resuma em 1 frase clara, mencionando src_ip, dest_ip, proto e porta quando existir (ex: Detectado {alert.signature} de {src_ip} para {dest_ip}:{dest_port} via {proto})",
+  "criticidade": "alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)",
+  "acao_recomendada": "passos práticos de resposta (ex: bloquear IP atacante, revisar firewall, monitorar destino, investigar)"
+}}
+
+⚠️ Regras:
+- O campo "tipo_ataque" deve vir de alert.signature.
+- O "resumo" obrigatoriamente deve citar src_ip, dest_ip, proto e porta se existirem.
+- Responda sempre apenas JSON puro e válido. Nada além disso.
+"""
+
+class LLMService:
+    def __init__(self):
+        # Endpoint das APIs do Ollama
+        self.base_url = "http://localhost:11434/api/generate"
+        # Modelo local instalado (ajuste conforme o que você puxou no Ollama)
+        self.model = "gemma3:270m"
+
+    async def check_ollama_health(self) -> bool:
+        """Verifica se o Ollama está rodando"""
+        try:
+            async with httpx.AsyncClient(timeout=5) as client:
+                resp = await client.get("http://localhost:11434/api/tags")
+            return resp.status_code == 200
+        except Exception as e:
+            logger.error(f"Erro conectando ao Ollama: {e}")
+            return False
+
+    async def analyze_log(self, log_data: dict):
+        """Envia log ao LLM para análise estruturada"""
+        try:
+            # Extraímos só os campos mais relevantes para o analista
+            log_highlight = {
+                "alert.signature": log_data.get("alert", {}).get("signature", "N/A"),
+                "src_ip": log_data.get("src_ip"),
+                "src_port": log_data.get("src_port"),
+                "dest_ip": log_data.get("dest_ip"),
+                "dest_port": log_data.get("dest_port"),
+                "proto": log_data.get("proto")
+            }
+
+            log_str = json.dumps(log_highlight, indent=2, ensure_ascii=False)
+            prompt = PROMPT_TEMPLATE.format(log=log_str)
+
+            payload = {
+                "model": self.model,
+                "prompt": prompt,
+                "stream": False
+            }

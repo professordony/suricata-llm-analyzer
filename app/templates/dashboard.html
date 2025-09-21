@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Suricata LLM Analyzer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; }
+    .card-header { font-weight: bold; }
+    .crit-baixa { color: #2ca02c; font-weight: bold; }
+    .crit-media { color: #ff9800; font-weight: bold; }
+    .crit-alta { color: #e53935; font-weight: bold; }
+  </style>
+</head>
+<body>
+<div class="container mt-4">
+  <h3 class="mb-4">📊 Suricata LLM Analyzer - Dashboard</h3>
+
+  <!-- Métricas -->
+  <div class="row mb-3">
+    <div class="col-md-3">
+      <div class="card bg-primary text-white">
+        <div class="card-body">
+          <h5>Total de Logs</h5>
+          <h2>{{ total_logs }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-danger text-white">
+        <div class="card-body">
+          <h5>Alta Criticidade</h5>
+          <h2>{{ logs_alta }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-info text-white">
+        <div class="card-body">
+          <h5>Logs Recentes</h5>
+          <h2>{{ logs_recentes }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-success text-white">
+        <div class="card-body">
+          <h5>IA</h5>
+          <h2>Ativa ✅</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lista de Logs -->
+  <h5 class="mb-3">🛡️ Logs de Segurança Recentes</h5>
+  {% for log in logs %}
+  <div class="card mb-3">
+    <div class="card-header">
+      {{ log.event_type }} {{ log.src_ip }} → {{ log.dest_ip }}:{{ log.dest_port }}
+      <span class="text-muted float-end">{{ log.timestamp.strftime("%d/%m/%Y %H:%M:%S") }}</span>
+    </div>
+    <div class="card-body">
+      <!-- Exibição da assinatura do Suricata -->
+      {% if log.raw_log %}
+      {% set raw = log.raw_log | tojson | safe %}
+      {% endif %}
+      <p><strong>🔖 Assinatura Suricata:</strong>
+        {{ log.signature or (log.raw_log.get('alert', {}).get('signature') if log.raw_log) }}
+      </p>
+
+      {% if log.analysis %}
+        <p><strong>🤖 Análise da IA:</strong></p>
+        <ul>
+          <li><strong>Resumo:</strong> {{ log.analysis.resumo }}</li>
+          <li><strong>Tipo:</strong> {{ log.analysis.tipo_ataque }}</li>
+          <li><strong>Criticidade:</strong>
+            {% if log.analysis.criticidade|lower == "baixa" %}
+              <span class="crit-baixa">BAIXA</span>
+            {% elif log.analysis.criticidade|lower == "alta" %}
+              <span class="crit-alta">ALTA</span>
+            {% else %}
+              <span class="crit-media">MÉDIA</span>
+            {% endif %}
+          </li>
+          <li><strong>Recomendação:</strong> {{ log.analysis.acao_recomendada }}</li>
+        </ul>
+      {% else %}
+        <p class="text-muted">⚠️ Nenhuma análise da IA disponível.</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</body>
+</html>

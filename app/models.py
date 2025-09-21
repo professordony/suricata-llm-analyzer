@@ -4,11 +4,11 @@ Modelos SQLAlchemy para o banco de dados
 """
 
 from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from datetime import datetime
+from .database import Base  # use o Base do database, não crie outro
 
-Base = declarative_base()
+#Base = declarative_base()
 
 class LogEntry(Base):
     """Modelo para armazenar logs brutos do Suricata"""
