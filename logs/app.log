@@ -1,0 +1,439 @@
+2025-09-20 14:54:10,255 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 14:54:10,290 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 17:25:50,296 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 17:25:50,312 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:14:10,962 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:14:10,977 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:18:02,579 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:18:02,595 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:27:14,837 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:27:14,848 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:27:36,596 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:36,624 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:36,627 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:36,639 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:36,659 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:36,662 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:36,679 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:36,680 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:36,683 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:36,687 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:37,671 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:37,692 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:37,694 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:37,704 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:37,726 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:37,728 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:37,739 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:37,743 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:37,746 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:37,749 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:38,737 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:38,766 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:38,769 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:38,782 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:38,810 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:38,813 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:38,826 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:38,831 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:38,835 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:38,838 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:39,822 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:39,845 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:39,847 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:39,858 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:39,878 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:39,881 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:39,890 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:39,894 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:39,898 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:39,900 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:40,889 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:40,911 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:40,914 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:40,923 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:40,943 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:40,945 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:40,956 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:40,959 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:40,962 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:40,964 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:41,454 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:41,477 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:41,480 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:41,490 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:41,509 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:41,511 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:41,519 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:41,524 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:41,526 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:41,529 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:42,521 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:42,545 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:42,547 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:42,558 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:42,580 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:42,582 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:42,593 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:42,597 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:42,599 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:42,601 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:43,591 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:43,611 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:43,613 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:43,621 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:43,641 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:43,644 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:43,655 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:43,659 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:43,662 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:43,665 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:44,652 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:44,673 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:44,675 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:44,685 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:44,707 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:44,709 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:44,719 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:44,724 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:44,726 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:44,729 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:45,719 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:45,745 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:45,748 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:45,759 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:45,781 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:45,783 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:45,794 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:45,798 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:45,801 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:45,807 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:46,793 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:46,814 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:46,816 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:46,828 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:46,847 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:46,850 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:46,861 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:46,865 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:46,868 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:46,872 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:47,860 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:47,889 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:47,891 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:47,902 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:27:47,924 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:27:47,926 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:27:47,937 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:47,941 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:27:47,944 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:27:47,947 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:31:31,707 - app.main - INFO - 📥 Log recebido: alert
+2025-09-20 18:31:31,730 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:31:31,733 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:31:31,747 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:31:31,752 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:32:45,394 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:32:45,403 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:32:52,484 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:32:52,493 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:34:12,385 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 18:34:12,396 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 18:34:46,900 - app.main - INFO - 📥 Log recebido: aggregated_alert
+2025-09-20 18:34:46,942 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:34:46,945 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:34:46,961 - app.main - INFO - 📥 Log recebido: aggregated_alert
+2025-09-20 18:34:46,980 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:34:46,982 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:34:46,990 - app.main - INFO - 📥 Log recebido: aggregated_alert
+2025-09-20 18:34:47,013 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:34:47,015 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 18:34:47,026 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:34:47,031 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:34:47,035 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:34:47,039 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 18:34:47,041 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 18:34:47,043 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 19:16:52,642 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 19:16:52,687 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 19:19:20,543 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 19:19:20,551 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 19:26:03,705 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 19:26:03,724 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 19:27:03,771 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (3x)
+2025-09-20 19:27:03,797 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:27:03,800 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 19:27:03,805 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (3x)
+2025-09-20 19:27:03,823 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:27:03,825 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma2:2b
+2025-09-20 19:27:03,836 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 19:27:03,840 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 19:27:03,842 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-09-20 19:27:03,845 - app.llm_service - ERROR - Ollama API error: 404
+2025-09-20 19:30:28,632 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 19:30:28,641 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 19:30:58,665 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (2x)
+2025-09-20 19:30:58,686 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:30:58,690 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:30:58,696 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (2x)
+2025-09-20 19:30:58,715 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:30:58,717 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:31:28,738 - app.llm_service - ERROR - Erro na análise LLM: 
+2025-09-20 19:31:28,756 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 19:31:28,758 - app.llm_service - ERROR - Erro na análise LLM: 
+2025-09-20 19:31:28,781 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 19:39:59,302 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 19:39:59,328 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:39:59,331 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:40:29,353 - app.llm_service - ERROR - Erro na análise LLM: 
+2025-09-20 19:40:29,380 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 19:43:29,911 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH connection attempt (1x)
+2025-09-20 19:43:29,931 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:43:29,934 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:43:29,941 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (990x)
+2025-09-20 19:43:29,964 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:43:29,966 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:43:46,233 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 19:43:46,241 - app.llm_service - INFO - 📤 Resposta LLM: ```json
+{
+  "resumo": "O IDS Suricata detectou um ataque de port-scan em IP 192.168.56.113. O ataque...
+2025-09-20 19:43:46,242 - app.llm_service - WARNING - Resposta LLM não é JSON válido, usando fallback
+2025-09-20 19:43:46,267 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 19:43:59,972 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 19:43:59,973 - app.llm_service - INFO - 📤 Resposta LLM: ```json
+{
+  "resumo": "Evento de ataque de port_scan, IP origem 192.168.56.113, IP destino 192.168.5...
+2025-09-20 19:43:59,973 - app.llm_service - WARNING - Resposta LLM não é JSON válido, usando fallback
+2025-09-20 19:43:59,992 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 19:45:00,237 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 19:45:00,258 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 19:45:00,261 - app.llm_service - INFO - 🤖 Enviando para LLM: gemma3:270m
+2025-09-20 19:45:22,623 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 19:45:22,628 - app.llm_service - INFO - 📤 Resposta LLM: ```json
+{
+  "resumo": "O IDS Suricata detectou um ataque de port-scan em IP 192.168.56.113. O ataque...
+2025-09-20 19:45:22,631 - app.llm_service - WARNING - Resposta LLM não é JSON válido, usando fallback
+2025-09-20 19:45:22,648 - app.main - INFO - ✅ Análise registrada: aggregated_alert - Criticidade média
+2025-09-20 16:48:17,571 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 16:48:17,650 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 16:48:47,697 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (1x)
+2025-09-20 16:48:47,721 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 16:49:13,209 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 16:49:13,210 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 16:49:13,232 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 16:49:18,032 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (3x)
+2025-09-20 16:49:18,052 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 16:49:18,120 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (3x)
+2025-09-20 16:49:18,141 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 16:49:43,577 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 16:49:43,578 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 16:49:43,603 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 16:49:48,455 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 16:49:48,480 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 16:50:06,344 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 16:50:06,345 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 16:50:06,373 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 16:50:27,931 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 16:50:27,936 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 16:50:27,952 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 16:54:49,222 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 16:54:49,242 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 16:55:08,208 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 16:55:08,214 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 16:55:08,231 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 16:59:49,727 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 16:59:49,749 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:00:08,596 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:00:08,606 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 17:00:08,621 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 17:04:50,295 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:04:50,317 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:05:14,404 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:05:14,410 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 17:05:14,432 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 17:09:50,839 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:09:50,860 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:10:12,925 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:10:12,925 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 17:10:12,947 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 17:14:51,398 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:14:51,417 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:15:12,717 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:15:12,722 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 17:15:12,739 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 17:19:51,998 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:19:52,028 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:20:15,127 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:20:15,134 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback.
+2025-09-20 17:20:15,154 - app.main - INFO - ✅ Análise registrada: desconhecido - Criticidade média
+2025-09-20 17:28:46,300 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 17:28:46,375 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 17:29:46,630 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH connection attempt (1x)
+2025-09-20 17:29:46,658 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:29:46,661 - app.llm_service - ERROR - ❌ Erro em analyze_log: '\n  "tipo_ataque"'
+2025-09-20 17:29:46,665 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (990x)
+2025-09-20 17:29:46,684 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:29:46,687 - app.llm_service - ERROR - ❌ Erro em analyze_log: '\n  "tipo_ataque"'
+2025-09-20 17:29:46,692 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:29:46,712 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:29:46,714 - app.llm_service - ERROR - ❌ Erro em analyze_log: '\n  "tipo_ataque"'
+2025-09-20 17:34:28,000 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 17:34:28,079 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 17:34:58,125 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:34:58,161 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:35:28,519 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH connection attempt (1x)
+2025-09-20 17:35:28,553 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:35:28,716 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (990x)
+2025-09-20 17:35:28,754 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:35:44,724 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:35:44,750 - app.main - INFO - ✅ Análise registrada: extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force) - Criticidade alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)
+2025-09-20 17:36:24,943 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:36:24,969 - app.main - INFO - ✅ Análise registrada: extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force) - Criticidade alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)
+2025-09-20 17:36:47,722 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:36:47,742 - app.main - INFO - ✅ Análise registrada: extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force) - Criticidade alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)
+2025-09-20 17:40:16,803 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 17:40:16,885 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 17:40:46,933 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH connection attempt (1x)
+2025-09-20 17:40:46,956 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:40:47,029 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (90x)
+2025-09-20 17:40:47,052 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:41:09,878 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:41:09,907 - app.main - INFO - ✅ Análise registrada: extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force) - Criticidade alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)
+2025-09-20 17:41:31,900 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:41:31,921 - app.main - INFO - ✅ Análise registrada: extraia da chave alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force) - Criticidade alta|média|baixa (baseie-se em SIGNATURE e portas-alvo: ex. scan de porta 80 = média, brute force SSH = alta, ICMP ping = baixa)
+2025-09-20 17:48:09,644 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-20 17:48:09,722 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-20 17:49:39,851 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH connection attempt (1x)
+2025-09-20 17:49:39,882 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:49:39,957 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (90x)
+2025-09-20 17:49:39,981 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:50:10,286 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:50:10,315 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:50:13,654 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:50:13,658 - app.llm_service - WARNING - ⚠️ Erro ao parsear JSON: Expecting property name enclosed in double quotes: line 6 column 1 (char 438) | Conteúdo bruto: {
+  "tipo_ataque": "ICMP Echo Request",
+  "resumo": "O ataque ICMP Echo Request (ICPR) é um tipo de ataque de força bruta que envolve tentar obter acesso à rede através de uma comunicação ICMP (e-mail
+2025-09-20 17:50:13,669 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback rule-based.
+2025-09-20 17:50:13,688 - app.main - INFO - ✅ Análise registrada: N/A - Criticidade média
+2025-09-20 17:50:29,633 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:50:29,653 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-20 17:50:56,933 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:50:56,956 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-20 17:55:10,914 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 17:55:10,937 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 17:56:50,653 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 17:56:50,665 - app.llm_service - WARNING - ⚠️ Erro ao parsear JSON: Invalid control character at: line 3 column 3221 (char 3260) | Conteúdo bruto: {
+  "tipo_ataque": "ICMP Echo Request",
+  "resumo": "O ICMP Echo Request é um ataque de porte de rede que pode ser usado para tentar acessar a rede de um host que está tentando enviar um pacote de dad
+2025-09-20 17:56:50,677 - app.llm_service - WARNING - ⚠️ LLM não retornou JSON válido. Usando fallback rule-based.
+2025-09-20 17:56:50,692 - app.main - INFO - ✅ Análise registrada: N/A - Criticidade média
+2025-09-20 18:00:12,054 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:00:12,075 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:00:46,093 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:00:46,112 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-20 18:05:12,755 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:05:12,777 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:05:29,185 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:05:29,210 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-20 18:10:13,301 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:10:13,336 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:10:30,978 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:10:31,009 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta
+2025-09-20 18:15:14,030 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:15:14,051 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:15:33,050 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:15:33,077 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-20 18:19:44,563 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:19:44,585 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:19:54,472 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:19:54,494 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta
+2025-09-20 18:24:45,077 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: ET POLICY Possible Kali Linux hostname in DHCP Request Packet (1x)
+2025-09-20 18:24:45,098 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-20 18:25:04,198 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-20 18:25:04,225 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:50:58,122 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-21 14:50:58,221 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-21 14:51:28,329 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (67x)
+2025-09-21 14:51:28,352 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:51:58,583 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:51:58,599 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:51:58,705 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (55x)
+2025-09-21 14:51:58,721 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:52:08,231 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:52:08,253 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:52:28,838 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (64x)
+2025-09-21 14:52:28,858 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:52:45,346 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:52:45,360 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta
+2025-09-21 14:52:59,320 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (53x)
+2025-09-21 14:52:59,349 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:53:16,401 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:53:16,414 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:53:29,799 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (60x)
+2025-09-21 14:53:29,816 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:53:37,631 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:53:37,645 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alto
+2025-09-21 14:54:00,260 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (63x)
+2025-09-21 14:54:00,275 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:54:16,900 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:54:16,915 - app.main - INFO - ✅ Análise registrada: extraia de alert.signature (ex: ICMP Echo Request, Possible SYN scan, SSH brute force, SQL Injection) - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:54:30,776 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (58x)
+2025-09-21 14:54:30,791 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:54:42,650 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:54:42,668 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:55:00,875 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (62x)
+2025-09-21 14:55:00,893 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:55:10,191 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:55:10,211 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta
+2025-09-21 14:55:31,420 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (61x)
+2025-09-21 14:55:31,449 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:55:40,927 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:55:40,940 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:56:01,913 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (68x)
+2025-09-21 14:56:01,930 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:56:10,415 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:56:10,430 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta|média|baixa (ex: ICMP ping=baixa, SYN scan=média, SSH brute/SQLi=alta)
+2025-09-21 14:56:32,441 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] SSH Login Attempt (65x)
+2025-09-21 14:56:32,457 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 14:56:39,947 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-21 14:56:39,960 - app.main - INFO - ✅ Análise registrada: ICMP Echo Request - Criticidade alta
+2025-09-21 15:00:29,918 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-21 15:00:29,992 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-21 15:55:05,790 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-21 15:55:05,857 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-21 15:58:06,318 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (1x)
+2025-09-21 15:58:06,340 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 15:58:06,340 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 15:58:06,357 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 15:58:06,361 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (1x)
+2025-09-21 15:58:06,377 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 15:58:06,377 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 15:58:06,392 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:02:37,013 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-21 16:02:37,081 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-21 16:03:07,161 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (1x)
+2025-09-21 16:03:07,193 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:03:07,194 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:03:07,212 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:03:07,215 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (2x)
+2025-09-21 16:03:07,233 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:03:07,234 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:03:07,250 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:03:07,255 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (1x)
+2025-09-21 16:03:07,277 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:03:07,277 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:03:07,294 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:03:37,367 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] Possible SYN scan (1x)
+2025-09-21 16:03:37,392 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:03:37,393 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:03:37,412 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:07:08,146 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Request to HOME_NET (1x)
+2025-09-21 16:07:08,164 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:07:08,165 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:07:08,186 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 16:07:08,189 - app.main - INFO - 📦 Recebido ALERTA AGRUPADO: [LOCAL] ICMP Echo Reply from HOME_NET (1x)
+2025-09-21 16:07:08,209 - app.main - INFO - 🤖 Analisando log com LLM...
+2025-09-21 16:07:08,210 - app.llm_service - ERROR - ❌ Erro em analyze_log: 'alert'. Usando fallback crítico.
+2025-09-21 16:07:08,226 - app.main - INFO - ✅ Análise registrada: Erro na análise LLM - Criticidade média
+2025-09-21 17:08:42,151 - app.main - INFO - 🚀 Iniciando Suricata LLM Analyzer...
+2025-09-21 17:08:42,245 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
